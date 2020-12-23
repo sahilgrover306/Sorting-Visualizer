@@ -1,15 +1,3 @@
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    E-MAIL:-    tummala.kethan@gmail.com
-    *****************
-*/
-
-/*
-Variable naming convention: <object>_<action>_<objectname>; Example -> Button_click_b1;
-*/
-
-//Variables (BE CAREFUL THESE MIGHT BE USED IN OTHER JS FILES TOO)
 
 var inp_as=document.getElementById('size'),array_size=inp_as.value;
 var inp_gen=document.getElementById("newArray");
@@ -79,10 +67,3 @@ function runalgo()
                         break;
     }
 }
-
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    E-MAIL:-    tummala.kethan@gmail.com
-    *****************
-*/

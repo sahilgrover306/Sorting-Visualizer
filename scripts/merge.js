@@ -3,6 +3,8 @@ function Merge()
     c_delay=0;
 
     merge_partition(0,array_size-1);
+
+    enable_buttons();
 }
 
 function merge_sort(start,mid,end)

@@ -41,4 +41,6 @@ function Insertion()
         }
     }
     div_update(divs[j-1],div_sizes[j-1],green);//Color update
+
+    enable_buttons();
 }

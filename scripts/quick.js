@@ -3,6 +3,8 @@ function Quick()
     c_delay=0;
 
     quick_sort(0,array_size-1);
+
+    enable_buttons();
 }
 
 function quick_partition (start, end)
