@@ -45,6 +45,4 @@ function Selection_sort()
         div_update(divs[i],div_sizes[i],green);//Color update
     }
     div_update(divs[i],div_sizes[i],green);//Color update
-
-    enable_buttons();
 }

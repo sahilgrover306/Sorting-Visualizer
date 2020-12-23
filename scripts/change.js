@@ -1,12 +1,3 @@
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    E-MAIL:-    tummala.kethan@gmail.com
-    *****************
-*/
-
-//We only have to change background-color and height of the sorting element.
-
 var speed=1000;
 
 inp_aspeed.addEventListener("input",vis_speed);
@@ -41,25 +32,3 @@ function div_update(cont,height,color)
     },c_delay+=delay_time);
 }
 
-function enable_buttons()
-{
-    window.setTimeout(function(){
-        for(var i=0;i<butts_algos.length;i++)
-        {
-            butts_algos[i].classList=[];
-            butts_algos[i].classList.add("butt_unselected");
-
-            butts_algos[i].disabled=false;
-            inp_as.disabled=false;
-            inp_gen.disabled=false;
-            inp_aspeed.disabled=false;
-        }
-    },c_delay+=delay_time);
-}
-
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    E-MAIL:-    tummala.kethan@gmail.com
-    *****************
-*/

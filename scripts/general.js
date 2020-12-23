@@ -57,24 +57,10 @@ for(var i=0;i<butts_algos.length;i++)
     butts_algos[i].addEventListener("click",runalgo);
 }
 
-function disable_buttons()
-{
-    for(var i=0;i<butts_algos.length;i++)
-    {
-        butts_algos[i].classList=[];
-        butts_algos[i].classList.add("butt_locked");
-
-        butts_algos[i].disabled=true;
-        inp_as.disabled=true;
-        inp_gen.disabled=true;
-        inp_aspeed.disabled=true;
-    }
-}
 
 function runalgo()
 {
     generate_array();
-    disable_buttons();
 
     this.classList.add("butt_selected");
     switch(this.innerHTML)
